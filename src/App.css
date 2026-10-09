@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+.logo{
+  position:relative;
+  left:40px;
+  bottom:20px;
+  font-family: "Lavishly Yours";
+  font-size: 32px;
+
+}
+.logo1{
+  position: relative;
+  top:15px;
+  left: 20px;
+  transition: all;
+  transition-duration:5s;
+  width: 60px;
+  height: 60px;
+ 
+}
+
+.logo1:hover{
+  transform: rotate(360deg);
+
+}
+
+
+.box{
+  background-color: pink;
+  height: 900px;
+ 
+}
+nav{
+   background-color: rgba(255, 255, 255, 0.3);
+   
+}
+.search{
+  width:30px;
+  position: relative;
+  top: 20px;
+}
+.cart{
+    width:30px;
+  position: relative;
+  left: 50px;
+   
+}
+.location{
+    width:30px;
+  position: relative;
+  left: 50px;
+  
+}
+.person{
+    width:30px;
+  position: relative;
+  left: 50px;
+}
+
+li a{
+  font-size: 18px;
+  color: white;
+}
+.bar{
+  height: 60px;
+}
+.item{
+  position: relative;
+  bottom: 10px;
+}
+.heading{
+font-family: "Chewy", system-ui;;
+font-weight: bold;
+
+}
+.donuts{
+  display: flex;
+  position: relative;
+  bottom: 150px;
+  width: 150px;
+  right: -10px;
+}
+.strawberry{
+  width:500px;
+  position: relative;
+  top: 85px;
+  filter: drop-shadow(70px  50px 70px rgb(238, 85, 111));
+  animation-name: pink;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes pink {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
